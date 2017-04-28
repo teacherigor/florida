@@ -1,5 +1,5 @@
 .advantages-container {
-
+display: flex;
 }
 h2 {
 	width: 720px;
