@@ -1,33 +1,30 @@
-.advantages-container {
-display: flex;
+body {
+	background-color: #9c9f84;
 }
-h2 {
-	width: 720px;
-	height: 36px;
-	color: #333333;
+.advantages-container {
+/* display: flex; */
+}
+.advantages-title {
+	margin: 10px;
+	background-color: #5c755c;
 	font: Roboto 36px 100 30px;
 }
+}
 .crafted {
-	width: 129px;
-	height: 129px;
 	background-color: #f0f0f0;
-	border-radius: 50%;
 }
 .layout {
-	width: 129px;
-	height: 129px;
 	background-color: #daf3b9;
-	border-radius: 50%;
 }
 .unlimited {
-	width: 129px;
-	height: 129px;
 	background-color: #f0f0f0;
-	border-radius: 50%;
 }
 .lots {
+	background-color: #f0f0f0;
+}
+.advantage-item {
+	display: inline-block;
 	width: 129px;
 	height: 129px;
-	background-color: #f0f0f0;
 	border-radius: 50%;
 }
