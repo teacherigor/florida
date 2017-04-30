@@ -28,4 +28,5 @@ body {
 	height: 129px;
 	border-radius: 50%;
 	border: 15px solid #f0f0f0;
+	float: left;
 }
