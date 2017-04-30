@@ -11,21 +11,21 @@ body {
 }
 }
 .crafted {
-	background-color: #f0f0f0;
+	background-color: #dc464e;
 }
 .layout {
-	background-color: #daf3b9;
+	background-color: #82b53f;
 }
 .unlimited {
-	background-color: #f0f0f0;
+	background-color: #dc464e	;
 }
 .lots {
-	background-color: #f0f0f0;
+	background-color: #dc464e;
 }
 .advantage-item {
 	display: inline-block;
 	width: 129px;
 	height: 129px;
 	border-radius: 50%;
-	border: 15px solid red;
+	border: 15px solid #f0f0f0;
 }
