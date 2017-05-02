@@ -12,15 +12,19 @@ body {
 }
 .crafted {
 	background-color: #dc464e;
+	margin: 37px 33px 35px 33px;
 }
 .layout {
 	background-color: #82b53f;
+	margin: 37px 33px 35px 33px;
 }
 .unlimited {
-	background-color: #dc464e	;
+	background-color: #dc464e;
+	margin: 37px 33px 35px 33px;
 }
 .lots {
 	background-color: #dc464e;
+	margin: 37px 33px 35px 33px;
 }
 .advantage-item {
 	display: inline-block;
@@ -28,5 +32,9 @@ body {
 	height: 129px;
 	border-radius: 50%;
 	border: 15px solid #f0f0f0;
-	float: left;
+	vertical-align: top;
+}
+.advantage-icon {
+	display: inline-block;
+	margin: 37px 33px 35px 33px;
 }
