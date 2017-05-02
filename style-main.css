@@ -2,29 +2,24 @@ body {
 	background-color: #9c9f84;
 }
 .advantages-container {
-/* display: flex; */
+text-align: center;
 }
 .advantages-title {
 	margin: 10px;
 	background-color: #5c755c;
 	font: Roboto 36px 100 30px;
 }
-}
 .crafted {
 	background-color: #dc464e;
-	margin: 37px 33px 35px 33px;
 }
 .layout {
 	background-color: #82b53f;
-	margin: 37px 33px 35px 33px;
 }
 .unlimited {
 	background-color: #dc464e;
-	margin: 37px 33px 35px 33px;
 }
 .lots {
 	background-color: #dc464e;
-	margin: 37px 33px 35px 33px;
 }
 .advantage-item {
 	display: inline-block;
@@ -33,8 +28,11 @@ body {
 	border-radius: 50%;
 	border: 15px solid #f0f0f0;
 	vertical-align: top;
+	text-align: center;
+	line-height: 129px;
 }
 .advantage-icon {
 	display: inline-block;
-	margin: 37px 33px 35px 33px;
+	vertical-align: middle;
+	line-height: 1;
 }
