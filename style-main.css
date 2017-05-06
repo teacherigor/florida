@@ -16,7 +16,8 @@ text-align: center;
 	vertical-align: top;
 	text-align: center;
 	line-height: 129px;
-	background-color: #dc464e; 
+	background-color: #dc464e;
+	cursor: help; 
 }
 .advantage-item:hover {
 background-color: #82b53f;
