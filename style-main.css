@@ -1,25 +1,35 @@
-.advantages-container {
-text-align: center;
+html, 
+body {
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
 }
+
+.advantages-container {
+	text-align: center;
+}
+
 .advantages-title {
 	margin: 10px;
 	background-color: #5c755c;
-	font: Roboto 36px 100 30px;
+	font: 100 30px/36px 'Roboto', sans-serif; 
+	/* This is a custom font. I need to add it to the project */
 }
-.crafted {
-	background-color: #dc464e;
-}
-.layout {
-	background-color: #82b53f;
-}
-.unlimited {
-	background-color: #dc464e;
-}
-.lots {
-	background-color: #dc464e;
-}
+
 .advantage-item {
 	display: inline-block;
+	
+}
+/*add pseudo class 'hover' to change any advantage item color when it is hovered*/
+.advantage-item:hover .advantage-icon {
+	background-color: #82b53f;
+	border-color: #daf3b9;
+	cursor: pointer;
+}
+.advantage-icon {
+	display: inline-block;
+
+	vertical-align: middle;
+
 	width: 129px;
 	height: 129px;
 	border-radius: 50%;
@@ -27,11 +37,7 @@ text-align: center;
 	vertical-align: top;
 	text-align: center;
 	line-height: 129px;
-}
-.advantage-icon {
-	display: inline-block;
-	vertical-align: middle;
-	line-height: 1;
+	background-color: #dc464e;
 }
 h3 {
 	font-size: 15px;
