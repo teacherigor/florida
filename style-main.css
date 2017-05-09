@@ -17,7 +17,7 @@ text-align: center;
 	text-align: center;
 	line-height: 129px;
 	background-color: #dc464e;
-	cursor: help; 
+	cursor: pointer; 
 }
 .advantage-item:hover {
 background-color: #82b53f;
@@ -36,4 +36,7 @@ h3 {
 p {
 	font-size: 10px;
 	line-height: 12px;
+}
+.table, td, th {
+border: 1px solid black;
 }
