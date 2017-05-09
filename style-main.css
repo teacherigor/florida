@@ -16,6 +16,7 @@ body {
 }
 
 .advantage-item {
+<<<<<<< HEAD
 	display: inline-block;
 	
 }
@@ -26,6 +27,8 @@ body {
 	cursor: pointer;
 }
 .advantage-icon {
+=======
+>>>>>>> 7ebeb98cbb3a6eecaab32aac16347d4d5533fa29
 	display: inline-block;
 
 	vertical-align: middle;
@@ -38,6 +41,19 @@ body {
 	text-align: center;
 	line-height: 129px;
 	background-color: #dc464e;
+<<<<<<< HEAD
+=======
+	cursor: pointer; 
+}
+.advantage-item:hover {
+background-color: #82b53f;
+border: 15px solid #daf3b9;	
+}
+.advantage-icon {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+>>>>>>> 7ebeb98cbb3a6eecaab32aac16347d4d5533fa29
 }
 h3 {
 	font-size: 15px;
@@ -47,4 +63,7 @@ h3 {
 p {
 	font-size: 10px;
 	line-height: 12px;
+}
+.table, td, th {
+border: 1px solid black;
 }
