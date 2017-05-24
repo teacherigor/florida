@@ -13,6 +13,7 @@ h2,
 .advantage-desc {
 	text-align: center;
 	margin: 10px;
+
 }
 
  
@@ -39,4 +40,35 @@ h2,
 	background: #82b53f;
 	border: 15px solid #daf3b9;
 	
+}
+h2, div, p {
+font-family: Roboto;	
+}
+h2 {
+		font-size: 36px;
+		font-weight: 100;
+		line-height: 30px;
+}
+div {
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 30px;
+
+}
+h3 {
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 30px;
+
+}
+p {
+	width: 212px;
+	height: 86px;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.table {
+	/*text-align: center; */
 }
