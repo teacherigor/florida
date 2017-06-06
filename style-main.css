@@ -12,7 +12,7 @@
 h2,
 .advantage-desc {
 	text-align: center;
-	margin: 10px;
+	margin: 29px 10px;
 
 }
 
@@ -34,12 +34,10 @@ h2,
 	height: 130px;
 	line-height: 130px;
 	transition: all .2s ease;
-	cursor: pointer;
 }
-.advantage-icon:hover {
+.advantage-item:hover .advantage-icon {
 	background: #82b53f;
 	border: 15px solid #daf3b9;
-	
 }
 h2, div, p {
 font-family: Roboto;	
@@ -62,13 +60,10 @@ h3 {
 
 }
 p {
+	margin: 0 auto;
 	width: 212px;
 	height: 86px;
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 30px;
-}
-
-.table {
-	/*text-align: center; */
 }
